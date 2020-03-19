@@ -1,0 +1,139 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/read/voiceRead/voiceRead",
+			"style": {
+				"navigationBarTitleText": "健康报",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/read/journalDetailsPage/journalDetailsPage",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+		    "path" : "pages/read/voiceDetailsPage/voiceDetailsPage",
+		    "style" : {
+				"navigationBarTitleText": ""
+			}
+		},
+		
+		{
+		    "path" : "pages/read/voiceCategoryPage/voiceCategoryPage",
+		    "style" : {
+				"navigationBarTitleText": "热门听书"
+			}
+		},
+		{
+		    "path" : "pages/read/originalAppearancePage/originalAppearancePage",
+		    "style" : {
+				"navigationBarTitleText": "原貌页"
+			}
+		},
+
+		{
+		    "path" : "pages/read/formalContentPage/formalContentPage",
+		    "style" : {
+				"navigationBarTitleText": "正文"
+			}
+		},
+		{
+		    "path" : "pages/read/oldList/oldList",
+		    "style" : {
+				"navigationBarTitleText": "往期列表"
+			}
+		},
+		{
+			"path": "pages/read/journalCategoryPage/journalCategoryPage",
+			"style": {
+				"navigationBarTitleText": "精选期刊",
+				"app-plus": {	
+					// 禁用原生导航栏
+					"titleNView": false,
+					// 手机端隐藏滚动条，保留滚动效果
+					"scrollIndicator":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/read/read",
+			"style": {
+				"navigationBarTitleText": "健康报"
+			}
+		},
+		{
+			"path": "pages/elejournal/elejournal",
+			"style": {
+				"navigationBarTitleText": "健康报"
+			}
+		}, 
+		{
+			"path": "pages/myself/myself",
+			"style": {
+				"navigationBarTitleText": "健康报"
+			}
+		}
+        ,{
+            "path" : "pages/elepaper/elepaper",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/elepaper/paperMain/paperMain",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/index",
+            "style" : {}
+        }
+    ],
+	"tabBar": {
+		"height": "78rpx",
+		"fontSize": "10pt",
+		"borderStyle": "white",
+		"color": "#666666",
+		"selectedColor": "#333333",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/精选-未选中@2x.png",
+				"selectedIconPath": "static/icon/精选-选车@2x.png",
+				"text": "精选"
+			},
+			{
+				"pagePath": "pages/read/read",
+				"iconPath": "static/icon/阅读-未选中@2x.png",
+				"selectedIconPath": "static/icon/阅读-选中@2x.png",
+				"text": "阅读"
+			}, {
+				"pagePath": "pages/elejournal/elejournal",
+				"iconPath": "static/icon/电子报-未选中@2x.png",
+				"selectedIconPath": "static/icon/电子报-选中@2x.png",
+				"text": "电子刊"
+			},
+			{
+				"pagePath": "pages/elepaper/elepaper",
+				"iconPath": "static/icon/电子报-未选中@2x.png",
+				"selectedIconPath": "static/icon/电子报-选中@2x.png",
+				"text": "电子报"
+			},{
+				"pagePath": "pages/myself/myself",
+				"iconPath": "static/icon/我的-未选中@2x.png",
+				"selectedIconPath": "static/icon/我的-选中@2x.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "健康报",
+		"navigationBarBackgroundColor": "#FAFAFA",
+		"backgroundColor": "#FFFFFF"
+	}
+}
